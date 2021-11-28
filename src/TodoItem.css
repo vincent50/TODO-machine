@@ -1,0 +1,18 @@
+.TodoItem {
+  display: flex;
+  font-family: var(--monts-font);
+  font-weight: 300;
+  align-items: center;
+  font-size: 1.6rem;
+  margin: 0 20px;
+  width: 100%;
+  /* border-bottom: 1px solid var(--black); */
+}
+
+.TodoItem span:nth-child(1) {
+  margin-right: 20px;
+}
+
+.TodoItem p {
+  width: 80%;
+}
