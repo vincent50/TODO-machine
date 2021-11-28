@@ -5,12 +5,16 @@
   align-items: center;
   font-size: 1.6rem;
   margin: 0 20px;
-  width: 100%;
-  /* border-bottom: 1px solid var(--black); */
+  border-bottom: 1px solid var(--black);
+  justify-content: space-evenly;
 }
 
 .TodoItem span:nth-child(1) {
   margin-right: 20px;
+}
+
+.TodoItem:nth-last-child(1) {
+  border-bottom: 0;
 }
 
 .TodoItem p {
